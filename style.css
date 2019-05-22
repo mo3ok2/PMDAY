@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Pancetta-Pro';
+    src: url('fonts/Mint Type - Pancetta Pro Regular.otf');
+    font-weight: 400;
+}
+
+
+.fa, .far, .fas {
+	font-family: "Font Awesome 5 Free";
+	font: normal normal normal 14px/1 FontAwesome;
+}
+
+.register-section {
+    padding-top: 90px;
+}
+
+.simple-partner-1 .logo-wrap {
+	height: 150px; 
+}
+
+.simple-partner-1 .logo-wrap {
+	display: inline-block; 
+    height: 150px;
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
