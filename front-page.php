@@ -16,7 +16,7 @@
 
 get_header(); ?>
 
-
+    <!-- Start first section  -->
     <div class="first-section">
         <div class="section-wrap">
             <div class="container">
@@ -34,9 +34,10 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End first section  -->
 
 
-
+    <!-- Start green point section  -->
     <div class="green-point-section">
         <div class="section-wrap">
             <div class="container">
@@ -109,8 +110,11 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End green point section  -->
 
 
+
+    <!-- Start timer section  -->
     <div class="section-with-timer">
         <div class="container">
             <div class="row">
@@ -122,8 +126,11 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End timer section  -->
 
 
+
+    <!-- Start six circles section  -->
     <div class="section-with-six-circle">
         <div class="content-wrapp">
             <div class="container">
@@ -139,158 +146,6 @@ get_header(); ?>
                         </div>
                     </div>
 
-
-<!--                    <div class="row mb--25 mb--80">-->
-<!--                        <div class="col-6 offset-lg-4 col-lg-3 mb-30px">-->
-<!--                            <div class="circle280-wrapp circles-animation-wrap">-->
-<!---->
-<!--                                <div class="anim-wrap-container">-->
-<!--                                    <div class="circles-animation1 text-uppercase">-->
-<!--                                        <span><a href="#spickers-section">--><?php //echo get_field('круг1_текст_кнопки') ?><!--</a></span>-->
-<!--                                    </div>-->
-<!--                                    <div class="circles-animation2"></div>-->
-<!--                                    <div class="circles-animation3"></div>-->
-<!--                                    <div class="circles-animation4"></div>-->
-<!---->
-<!--                                    <div class="circle280 circle-hover">-->
-<!--                                        <div class="green-circle-numb d-flex align-items-center">-->
-<!--                                            <span class="main-title text-center text-white">--><?php //echo get_field('круг1_тайтл') ?><!--</span>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!---->
-<!--                                <div class="bottom-content" style="display: none;">-->
-<!--                                    <span class="text-center">--><?php //echo get_field('круг1_опис') ?><!--</span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!---->
-<!---->
-<!--                    <div class="row mb--25">-->
-<!--                        <div class="col-6 hidden-lg-up ml--10-less-768">-->
-<!--                            <div class="circle280-wrapp circles-animation-wrap">-->
-<!---->
-<!--                                <div class="anim-wrap-container">-->
-<!--                                    <div class="circles-animation1 text-uppercase">-->
-<!--                                        <span><a href="#spickers-section">--><?php //echo get_field('круг2_текст_кнопки') ?><!--</a></span>-->
-<!--                                    </div>-->
-<!--                                    <div class="circles-animation2"></div>-->
-<!--                                    <div class="circles-animation3"></div>-->
-<!--                                    <div class="circles-animation4"></div>-->
-<!---->
-<!--                                    <div class="circle280 circle-hover">-->
-<!--                                        <div class="green-circle-numb d-flex align-items-center">-->
-<!--                                            <span class="main-title text-center text-white">--><?php //echo get_field('круг2_тайтл') ?><!-- </span>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!---->
-<!--                                <div class="bottom-content" style="display: none;">-->
-<!--                                    <span class="text-center">--><?php //echo get_field('круг2_опис') ?><!--</span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!---->
-<!--                        <div class="col-lg-4">-->
-<!--                            <div class="circle280-wrapp circles-animation-wrap central-circle">-->
-<!---->
-<!--                                <div class="anim-wrap-container">-->
-<!--                                    <div class="circles-animation1 text-uppercase">-->
-<!--                                        <span><a href="#spickers-section">--><?php //echo get_field('круг3_текст_кнопки') ?><!--</a></span>-->
-<!--                                    </div>-->
-<!--                                    <div class="circles-animation2"></div>-->
-<!--                                    <div class="circles-animation3"></div>-->
-<!--                                    <div class="circles-animation4"></div>-->
-<!---->
-<!--                                    <div class="circle280 circle-hover">-->
-<!--                                        <div class="green-circle-numb d-flex align-items-center">-->
-<!--                                            <span class="main-title text-center text-white">--><?php //echo get_field('круг3_тайтл') ?><!--</span>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!---->
-<!--                                <div class="bottom-content" style="display: none;">-->
-<!--                                    <span class="text-center">--><?php //echo get_field('круг3_опис') ?><!-- </span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!---->
-<!--                        <div class="col-lg-4">-->
-<!--                            <div class="circle280-wrapp circles-animation-wrap">-->
-<!---->
-<!--                                <div class="anim-wrap-container">-->
-<!--                                    <div class="circles-animation1 text-uppercase">-->
-<!--                                        <span><a href="#spickers-section">--><?php //echo get_field('круг4_текст_кнопки') ?><!--</a></span>-->
-<!--                                    </div>-->
-<!--                                    <div class="circles-animation2"></div>-->
-<!--                                    <div class="circles-animation3"></div>-->
-<!--                                    <div class="circles-animation4"></div>-->
-<!---->
-<!--                                    <div class="circle280 circle-hover">-->
-<!--                                        <div class="green-circle-numb d-flex align-items-center">-->
-<!--                                            <span class="main-title text-center text-white">--><?php //echo get_field('круг4_тайтл') ?><!--</span>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!---->
-<!--                                <div class="bottom-content" style="display: none;">-->
-<!--                                    <span class="text-center">--><?php //echo get_field('круг4_опис') ?><!-- </span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!---->
-<!---->
-<!--                    <div class="row mb--25">-->
-<!--                        <div class="offset-lg-1 col-lg-4">-->
-<!--                            <div class="circle280-wrapp circles-animation-wrap">-->
-<!---->
-<!--                                <div class="anim-wrap-container">-->
-<!--                                    <div class="circles-animation1 text-uppercase">-->
-<!--                                        <span><a href="#spickers-section">--><?php //echo get_field('круг5_текст_кнопки') ?><!--</a></span>-->
-<!--                                    </div>-->
-<!--                                    <div class="circles-animation2"></div>-->
-<!--                                    <div class="circles-animation3"></div>-->
-<!--                                    <div class="circles-animation4"></div>-->
-<!---->
-<!--                                    <div class="circle280 circle-hover">-->
-<!--                                        <div class="green-circle-numb d-flex align-items-center">-->
-<!--                                            <span class="main-title text-center text-white">--><?php //echo get_field('круг5_тайтл') ?><!--</span>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!---->
-<!--                                <div class="bottom-content" style="display: none;">-->
-<!--                                    <span class="text-center">--><?php //echo get_field('круг5_опис') ?><!-- </span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!---->
-<!--                        <div class="offset-lg-2 col-lg-4">-->
-<!--                            <div class="circle280-wrapp circles-animation-wrap">-->
-<!---->
-<!--                                <div class="anim-wrap-container">-->
-<!--                                    <div class="circles-animation1 text-uppercase">-->
-<!--                                        <span><a href="#spickers-section">--><?php //echo get_field('круг6_текст_кнопки') ?><!--</a></span>-->
-<!--                                    </div>-->
-<!--                                    <div class="circles-animation2"></div>-->
-<!--                                    <div class="circles-animation3"></div>-->
-<!--                                    <div class="circles-animation4"></div>-->
-<!---->
-<!--                                    <div class="circle280 circle-hover">-->
-<!--                                        <div class="green-circle-numb d-flex align-items-center">-->
-<!--                                            <span class="main-title text-center text-white">--><?php //echo get_field('круг6_тайтл') ?><!--</span>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!---->
-<!--                                <div class="bottom-content" style="display: none;">-->
-<!--                                    <span class="text-center">--><?php //echo get_field('круг6_опис') ?><!-- </span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
 
                     <div class="row mb--25 mb--80">
                         <div class="col-6 offset-lg-4 col-lg-3 mb-30px ">
@@ -476,9 +331,10 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End six circles section  -->
 
 
-
+    <!-- Start tables section  -->
     <div id="section-with-table" class="section-with-table">
         <div class="container">
             <div class="container-wrapp">
@@ -588,9 +444,10 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End tables section  -->
 
 
-
+    <!-- Start spickers section  -->
     <div id="spickers-section" class="spickers-section">
         <div class="container">
             <div class="row">
@@ -732,7 +589,6 @@ get_header(); ?>
                                             </span>
                                             </div>
                                             <div class="circles-animation2 text-uppercase">
-<!--                                                <span><a href="--><?php //echo get_field('посилання') ?><!--">--><?php //echo get_field('текст_посилання') ?><!--</a></span>-->
                                                 <span><?php echo get_field('текст_посилання') ?></span>
                                             </div>
                                             <div class="circles-animation3"></div>
@@ -923,7 +779,6 @@ get_header(); ?>
                                             </span>
                                             </div>
                                             <div class="circles-animation2 text-uppercase">
-<!--                                                <span><a href="--><?php //echo get_field('посилання') ?><!--">--><?php //echo get_field('текст_посилання') ?><!--</a></span>-->
                                                 <span><?php echo get_field('текст_посилання') ?></span>
                                             </div>
                                             <div class="circles-animation3"></div>
@@ -1090,88 +945,11 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End  spickers section  -->
 
 
 
-<!--    <div id="register-section" class="register-section">-->
-<!--        <div class="container">-->
-<!--            <div class="row">-->
-<!---->
-<!--                <div class="col-lg-12">-->
-<!--                    <h3>--><?php //echo get_field('реєстрація') ?><!--</h3>-->
-<!--                </div>-->
-<!---->
-<!--                <div class="col-lg-6">-->
-<!--                    <div class="reg-block-left">-->
-<!--                        <div class="col-lg-12 text-center">-->
-<!--                            <div class="register-circles-wrap">-->
-<!--                                -->
-<!--                            </div>-->
-<!--                            <div class="circle-el-wrap circle-big-wr position-relative">-->
-<!--                                <div class="circle-big  change-content">-->
-<!--                                    <span class="first-block">--><?php //echo get_field('standart_тайтл') ?><!--</span>-->
-<!--                                    <span class="second-block desc" style="display: none;">--><?php //echo get_field('standart_опис') ?>
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="circle-el-wrap circle-sm1-wr position-relative">-->
-<!--                                <div class="circle-sm1">-->
-<!--                                    <span><a href="--><?php //echo get_field('standart_лінк') ?><!--">--><?php //echo get_field('standart_лінк_текст') ?><!--</a></span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!---->
-<!--                            <div class="circle-el-wrap circle-sm1-wr position-relative circle-new-add-1">-->
-<!--                                <div class="circle-sm1">-->
-<!--                                    <span><a href="--><?php //echo get_field('standart_груповая_реестрация_link') ?><!--">--><?php //echo get_field('standart_груповая_реестрация') ?><!--</a></span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!---->
-<!---->
-<!--                        </div>-->
-<!--                        <div class="col-lg-12">-->
-<!--                            <div class="circle-el-wrap circle-sm2-wr position-relative">-->
-<!--                                <div class="circle-sm2">-->
-<!--                                    <span>--><?php //echo get_field('standart_ціна') ?><!--</span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!---->
-<!--                <div class="col-lg-6">-->
-<!--                    <div class="reg-block-left right-side">-->
-<!--                        <div class="col-lg-12">-->
-<!--                            <div class="circle-el-wrap circle-big-wr position-relative">-->
-<!--                                <div class="circle-big change-content">-->
-<!--                                    <span class="first-block">--><?php //echo get_field('premium_тайтл') ?><!--</span>-->
-<!--                                    <span class="second-block desc" style="display: none;">--><?php //echo get_field('premium_опис') ?>
-<!--                                    </span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="circle-el-wrap circle-sm1-wr position-relative">-->
-<!--                                <div class="circle-sm1">-->
-<!--                                    <span><a href="--><?php //echo get_field('premium_лінк') ?><!--">--><?php //echo get_field('premium_лінк_текст') ?><!--</a></span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!---->
-<!--                            <div class="circle-el-wrap circle-sm3-wr position-relative">-->
-<!--                                <div class="circle-sm3"><a href="--><?php //echo get_field('premium_груповая_реестрация_link') ?><!--">--><?php //echo get_field('premium_груповая_реестрация') ?><!--</a></div>-->
-<!--                            </div>-->
-<!---->
-<!---->
-<!--                        </div>-->
-<!--                        <div class="col-lg-12">-->
-<!--                            <div class="circle-el-wrap circle-sm2-wr position-relative">-->
-<!--                                <div class="circle-sm2">-->
-<!--                                    <span>--><?php //echo get_field('premium_ціна') ?><!--</span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!---->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
+    <!-- Start register section  -->
     <div id="register-section" class="register-section">
         <div class="container">
             <div class="row">
@@ -1253,28 +1031,10 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End register section  -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Start company logos section  -->
     <div id="section-company-logos" class="section-company-logos">
         <div class="container">
             <div class="row">
@@ -1375,6 +1135,7 @@ get_header(); ?>
                             <div class="company-row">
                                 <div class="col-lg-12">
                                     <div class="row">
+					    
                                         <div class="offset-lg-2 col-lg-3 silver-partner-1">
                                             <div class="logo-wrap">
                                                 <a target="_blank" href="<?php echo get_field('срібний_партнер_лого_1_link') ?>">
@@ -1382,6 +1143,7 @@ get_header(); ?>
                                                 </a>
                                             </div>
                                         </div>
+					    
                                         <div class="col-lg-3 silver-partner-2">
                                             <div class="logo-wrap">
                                                 <a target="_blank" href="<?php echo get_field('срібний_партнер_лого_2_link') ?>">
@@ -1389,6 +1151,7 @@ get_header(); ?>
                                                 </a>
                                             </div>
                                         </div>
+					    
                                         <div class="col-lg-3 silver-partner-3">
                                             <div class="logo-wrap">
                                                 <a target="_blank" href="<?php echo get_field('срібний_партнер_лого_3_link') ?>">
@@ -1396,6 +1159,7 @@ get_header(); ?>
                                                 </a>
                                             </div>
                                         </div>
+					    
                                     </div>
                                 </div>
                             </div>
@@ -1423,6 +1187,7 @@ get_header(); ?>
                                                 </a>
                                             </div>
                                         </div>
+					    
                                         <div class="col-lg-2 bronz-partner-2">
                                             <div class="logo-wrap">
                                                 <a target="_blank" href="<?php echo get_field('бронзовий_партнер_лого_2_link') ?>">
@@ -1430,6 +1195,7 @@ get_header(); ?>
                                                 </a>
                                             </div>
                                         </div>
+					    
                                         <div class="col-lg-2 bronz-partner-3">
                                             <div class="logo-wrap">
                                                 <a target="_blank" href="<?php echo get_field('бронзовий_партнер_лого_3_link') ?>">
@@ -1437,6 +1203,7 @@ get_header(); ?>
                                                 </a>
                                             </div>
                                         </div>
+					    
                                         <div class="col-lg-2 bronz-partner-4">
                                             <div class="logo-wrap">
                                                 <a target="_blank" href="<?php echo get_field('бронзовий_партнер_лого_4_link') ?>">
@@ -1444,6 +1211,7 @@ get_header(); ?>
                                                 </a>
                                             </div>
                                         </div>
+					    
                                     </div>
                                 </div>
                             </div>
@@ -1465,40 +1233,26 @@ get_header(); ?>
                                 <div class="col-lg-12">
                                     <div class="row">
                                     	<div class="owl-carousel logo-carousel-simple">
-
-
-
-											<?php 
-
-											// var_dump(get_field('партнер_карусель'));   
-											if( have_rows('партнер_карусель') ):  
-
-												while( have_rows('партнер_карусель') ): the_row();
-													
-													for($i = 1; $i <= 10; $i++) { 
+					    <?php 				
+						if( have_rows('партнер_карусель') ):  
+						    while( have_rows('партнер_карусель') ): the_row();				
+							for($i = 1; $i <= 10; $i++) { 
 	  
-														// vars
-														$image = get_sub_field('партнер_лого_' . $i);
-														$link = get_sub_field('партнер_лого_лінк_' . $i);
+								// vars
+								$image = get_sub_field('партнер_лого_' . $i);
+								$link = get_sub_field('партнер_лого_лінк_' . $i); ?>
 
-														?>
-
-														<div class="col-lg-12 simple-partner-1">
-				                                            <div class="logo-wrap">
-				                                                <a target="_blank" href="<?php echo $link; ?>"> 
-				                                                    <img src="<?php echo $image; ?>" alt="logo">
-				                                                </a>
-				                                            </div> 
-				                                        </div>
-
-												<?php }  
-
-												endwhile; ?>  
-												
-											<?php endif; ?>
-
-
-										</div>
+								<div class="col-lg-12 simple-partner-1">
+				                                    <div class="logo-wrap">
+				                                        <a target="_blank" href="<?php echo $link; ?>"> 
+				                                            <img src="<?php echo $image; ?>" alt="logo">
+				                                        </a>
+				                                    </div> 
+				                                </div>
+							    <?php }  
+							endwhile; ?>  
+						<?php endif; ?>
+					</div>
                                     </div>
                                 </div>
                             </div>
@@ -1516,9 +1270,11 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End company logos section  -->
 
 
-
+	    
+    <!-- Start info partners logos section  -->
     <div class="section-info-partners">
         <div class="container">
             <div class="row">
@@ -1534,7 +1290,7 @@ get_header(); ?>
 
                             <?php
                             $args = array(
-                                'post_type' 		=> 'logo',
+                                'post_type' 	    => 'logo',
                                 'category_name'     => 'інформаційні-партнери,інформаційні-партнери-en',
                                 'post_status'       => 'publish',
                                 'order' 			=> 'DESC',
@@ -1579,9 +1335,11 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End info partners logos section  -->
 
 
-
+	    
+    <!-- Start locate section  -->
     <div class="locate-section">
         <div class="container">
             <div class="row">
@@ -1625,9 +1383,10 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End locate section  -->
 
 
-
+    <!-- Start organizations section  -->
     <div id="section-organizations" class="section-organizations">
 
 
@@ -1642,10 +1401,10 @@ get_header(); ?>
 
                 <?php
                 $args = array(
-                'post_type' 		=> 'speakers',
-                'category_name'     => 'організатори,організатори-en',
-                'post_status'       => 'publish',
-                'order' 			=> 'DESC',
+                    'post_type' 	=> 'speakers',
+                    'category_name'     => 'організатори,організатори-en',
+                    'post_status'       => 'publish',
+                    'order' 		=> 'DESC',
                 );
 
 
@@ -1730,8 +1489,10 @@ get_header(); ?>
             </div>
         </div>
     </div>
-
-
+    <!-- End organizations section  -->
+	    
+	    
+    <!-- Start about lembs section  -->
     <div class="section-about-lembs">
         <div class="container">
             <div class="row">
@@ -1745,6 +1506,7 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <!-- End about lembs section  -->
 
 
 <?php get_footer();
