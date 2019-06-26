@@ -185,7 +185,7 @@ jQuery(document).ready(function($){
     var fullDays    = 0;
     var fullHours   = 0;
     var fullMinutes = 0;
-    var finishDate = $("#countdown").data('date');
+    var finishDate  = $("#countdown").data('date');
 
     // Full days
     fullDays    = Math.floor(finishDate / day);
@@ -215,14 +215,13 @@ jQuery(document).ready(function($){
         var speakerName             = $(this).find(".data-speaker-dn .foto-name").html();
         var speakerSurName          = $(this).find(".data-speaker-dn .foto-sure-name").html();
         var speakerPosada           = $(this).find(".data-speaker-dn .posada").html();
-        var speakerCompany           = $(this).find(".data-speaker-dn .company").html();
+        var speakerCompany          = $(this).find(".data-speaker-dn .company").html();
         var speakerDescription      = $(this).find(".data-speaker-dn .foto-description").html();
         var speakerTheme            = $(this).find(".data-speaker-dn .speaker-thema").html();
-        var speakerTezu            = $(this).find(".data-speaker-dn .speaker-tezu").html();
+        var speakerTezu             = $(this).find(".data-speaker-dn .speaker-tezu").html();
 
         $(".speaker-modal-img").attr("src", speakerFaceURL);
         $(".speaker-modal-name").html(speakerName + " " + speakerSurName);
-        // $(".speaker-modal-surname").html(speakerSurName);
         $(".speaker-modal-posada").html(speakerPosada + " " + speakerCompany);
         $(".speaker-modal-dosyagnennya").html(speakerDescription);
         $(".speaker-modal-topic").html(speakerTheme);
