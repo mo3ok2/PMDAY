@@ -6,15 +6,6 @@ $blue:  #00013e;
 
 
 
-
-//подоставати всі стилі звязані з наступними классами і перенести сюди
-//wrap-1
-//countdown-mobile-dn
-
-
-
-
-
 /**
   * Mixins
   **/
@@ -157,7 +148,7 @@ ul {
 }
 
 
-// Модалка чувачка
+// Person modal
 #exampleModalCenter1 {
 
     .modal-speaker-content-wrap {
@@ -224,7 +215,7 @@ ul {
 
 
 
-// Модал карти
+// Modal map
 #exampleModalCenter {
 
     .modal-dialog {
@@ -538,106 +529,6 @@ body .navbar-toggler {
     padding-top: 20px;
 }
 
-//
-//.central-circle {
-//    margin-top: 130px;
-//}
-//
-//.section-with-six-circle {
-//
-//    .wrapp-text {
-//        text-align: center;
-//
-//        h3 {
-//            font-weight: 900;
-//        }
-//
-//        p {
-//            padding-bottom: 80px;
-//            line-height: 30px;
-//        }
-//    }
-//
-//    .circles-animation-wrap.circles-animation-wrap-hover .circles-animation2 {
-//        background-position: 10px 135px;
-//        background-size: 50px 50px !important;
-//    }
-//
-//    .circle280-wrapp {
-//        position: relative;
-//
-//        .anim-wrap-container {
-//            position: relative;
-//            display: inline-block;
-//            height: auto;
-//        }
-//
-//        .circles-animation1 {
-//
-//            span {
-//                max-width: 100px;
-//                padding-top: 26px;
-//                font-size: 22px;
-//                text-align: center;
-//                display: inline-block;
-//                line-height: 24px;
-//                letter-spacing: -1px;
-//                padding-left: 23px;
-//
-//                a:visited,
-//                a:active,
-//                a:hover,
-//                a {
-//                    text-transform: uppercase;
-//                    color: #fff;
-//                    text-decoration: none;
-//                }
-//            }
-//        }
-//
-//        .circle280 {
-//            position: relative;
-//            display: flex;
-//            height: 240px;
-//            width: 240px;
-//            margin-left: 90px;
-//            margin-right: 90px;
-//            border-radius: 100%;
-//            background-color: $green;
-//            z-index: 2;
-//            animation: 1.5s pulse infinite;
-//
-//            &:hover {
-//                animation: none;
-//            }
-//
-//            .green-circle-numb {
-//                width: 100%;
-//
-//                .main-title {
-//                    width: 100%;
-//                    font-size: 20px;
-//                    line-height: 26px;
-//                    text-transform: uppercase;
-//                }
-//            }
-//        }
-//
-//        .bottom-content {
-//            width: 100%;
-//            max-width: 375px;
-//            margin-right: 90px;
-//
-//            span {
-//                display: inline-block;
-//                margin-top: 10px;
-//            }
-//        }
-//    }
-//}
-
-
-
 .central-circle {
     margin-top: 130px;
 }
@@ -746,23 +637,6 @@ body .navbar-toggler {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .section-with-table {
 
     .container-wrapp {
@@ -857,6 +731,7 @@ body .navbar-toggler {
         }
     }
 }
+
 
 
 .spickers-section .circle280-wrapp .circle280 {
@@ -971,6 +846,7 @@ body .navbar-toggler {
 }
 
 
+
 .section-organizations .circle280-wrapp .circles-animation2 span {
     margin-top: 185px;
     width: 70px;
@@ -985,168 +861,6 @@ body .navbar-toggler {
     width: auto;
     display: inline-block;
 }
-
-//
-//.register-section {
-//    padding-bottom: 60px;
-//
-//    h3 {
-//        margin-bottom: 60px;
-//    }
-//
-//    .circle-new-add-1 {
-//        top: -180px !important;
-//        margin-left: -60px;
-//
-//        span {
-//            margin-top: 18px !important;
-//            font-size: 16px !important;
-//        }
-//    }
-//
-//    .reg-block-left {
-//
-//        .circle-el-wrap {
-//            width: auto;
-//        }
-//
-//        .circle-big-wr {
-//            display: inline-block;
-//            max-width: 17vw;
-//        }
-//
-//        .circle-big {
-//            width: 100%;
-//            max-width: 450px;
-//            padding-top: calc(100% + -32px);
-//            border: 10px solid $green;
-//            border-radius: 100%;
-//            @include align-center();
-//
-//            span {
-//                position: absolute;
-//                display: inline-block;
-//                top: calc(50% - 2vw);
-//                left: 0;
-//                width: 100%;
-//                color: $green;
-//                font-size: 2.6vw;
-//                font-weight: bold;
-//                text-align: center;
-//                text-transform: uppercase;
-//            }
-//
-//            .desc {
-//                font-size: 1.5vw;
-//                line-height: 1;
-//                top: 80px;
-//                padding-left: 5px;
-//                padding-right: 5px;
-//            }
-//        }
-//
-//        .circle-sm1-wr {
-//            display: inline-block;
-//            top: -40px;
-//            width: 128px;
-//            height: 128px;
-//            text-align: center;
-//            border-radius: 100%;
-//            border: 10px solid #1c6105;
-//
-//            .circle-sm1 {
-//                @include align-center();
-//
-//                span {
-//                    font-size: 20px;
-//                    text-transform: uppercase;
-//                    color: $green;
-//                    line-height: 25px;
-//                    margin-top: 28px;
-//                    font-weight: bold;
-//                    letter-spacing: 0px;
-//                }
-//            }
-//        }
-//
-//
-//
-//        .circle-sm2-wr {
-//            top: -25px;
-//            height: 150px;
-//            width: 150px;
-//            margin: auto;
-//            border: 10px solid #1c6105;
-//            border-radius: 100%;
-//
-//            .circle-sm2 {
-//                @include align-center();
-//
-//                span {
-//                    display: inline-block;
-//                    margin: auto;
-//                    margin-top: 26px;
-//                    font-weight: bold;
-//                    font-size: 33px;
-//                    line-height: 1.3;
-//                    text-align: center;
-//                    text-transform: uppercase;
-//                    color: $green;
-//                }
-//            }
-//        }
-//
-//    }
-//
-//    .reg-block-left.right-side {
-//
-//        .circle-big {
-//            background-color: $green;
-//            animation: arrow_pulse 1.5s infinite;
-//
-//            span {
-//                color: white;
-//            }
-//        }
-//
-//        .circle-sm1-wr {
-//            background-color: $green;
-//
-//            .circle-sm1 span {
-//                color: white;
-//            }
-//        }
-//
-//        .circle-sm2-wr {
-//            background-color: $green;
-//
-//            span {
-//                color: white;
-//            }
-//        }
-//
-//        .circle-sm3-wr {
-//            display: inline-block;
-//            height: 120px;
-//            width: 120px;
-//            top: -130px;
-//            margin-left: -80px;
-//            background-color: #1c6105;
-//            border-radius: 100%;
-//
-//            .circle-sm3 {
-//                position: absolute;
-//                width: 100%;
-//                text-align: center;
-//                margin-top: 22px;
-//                padding-right: 10px;
-//                padding-left: 10px;
-//                color: white;
-//                font-size: 18px;
-//            }
-//        }
-//    }
-//}
 
 .register-section {
     padding-bottom: 60px;
@@ -1327,23 +1041,6 @@ body .navbar-toggler {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1576,210 +1273,6 @@ footer {
   * Animations
   **/
 
-
-//----------------------------
-// Animation with circles left
-// Start position
-//.circles-animation-wrap {
-//    position: relative;
-//
-//    .circles-animation1,
-//    .circles-animation2,
-//    .circles-animation3,
-//    .circles-animation4 {
-//        position: absolute;
-//        top: 0;
-//        left: 0;
-//        bottom: 0;
-//        right: 0;
-//        background-repeat: no-repeat;
-//        -webkit-background-size: auto;
-//        background-size: auto;
-//        transition: all 1s ease-in;
-//        opacity: 0;
-//    }
-//
-//    .circles-animation1 {
-//        transform: rotate(-110deg);
-//        background-image: url(../img/bgi_6_circles_4.png);
-//        background-position: 0 0;
-//        z-index: 1;
-//        @include transition-delay(0.75s);
-//    }
-//
-//    .circles-animation2 {
-//        transform: rotate(-110deg);
-//        background-image: url(../img/bgi_6_circles_3.png);
-//        background-position: 0 120px;
-//        background-size: 75px !important;
-//        @include transition-delay(0.5s);
-//    }
-//
-//    .circles-animation3 {
-//        transform: rotate(-110deg);
-//        background-image: url(../img/bgi_6_circles_2.png);
-//        background-position: 35px 210px;
-//        @include transition-delay(.25s);
-//    }
-//
-//    .circles-animation4 {
-//        transform: rotate(-110deg);
-//        background-image: url(../img/bgi_6_circles_1.png);
-//        background-position: 70px 260px;
-//    }
-//}
-//
-//// End position
-//.circles-animation-wrap.circles-animation-wrap-hover {
-//    position: relative;
-//
-//    .circles-animation1,
-//    .circles-animation2,
-//    .circles-animation3,
-//    .circles-animation4 {
-//        position: absolute;
-//        top: 0;
-//        left: 0;
-//        bottom: 0;
-//        right: 0;
-//        background-repeat: no-repeat;
-//        -webkit-background-size: auto;
-//        background-size: auto;
-//        transform: rotate(0deg);
-//        transition: all 1s ease-out;
-//        opacity: 1;
-//    }
-//
-//    .circles-animation1 {
-//        background-image: url(../img/bgi_6_circles_4.png);
-//        background-position: 0 0;
-//        z-index: 1;
-//    }
-//
-//    .circles-animation2 {
-//        background-image: url(../img/bgi_6_circles_3.png);
-//        background-position: 0 120px;
-//        @include transition-delay(0.35s);
-//    }
-//
-//    .circles-animation3 {
-//        background-image: url(../img/bgi_6_circles_2.png);
-//        background-position: 35px 210px;
-//        @include transition-delay(.7s);
-//    }
-//
-//    .circles-animation4 {
-//        background-image: url(../img/bgi_6_circles_1.png);
-//        background-position: 70px 260px;
-//        @include transition-delay(1.05s);
-//    }
-//}
-//
-//
-////----------------------------
-//// Animation with circles right
-//// Start position
-//.circles-animation-wrap.right-side {
-//    position: relative;
-//    padding-top: 50px;
-//    padding-bottom: 50px;
-//    padding-left: 0;
-//    padding-right: 40px;
-//
-//    .circles-animation1,
-//    .circles-animation2,
-//    .circles-animation3,
-//    .circles-animation4 {
-//        position: absolute;
-//        top: 0;
-//        left: 0;
-//        bottom: 0;
-//        right: 0;
-//        text-align: right;
-//        background-repeat: no-repeat;
-//        -webkit-background-size: auto;
-//        background-size: auto;
-//        transition: all 1s ease-in;
-//        opacity: 0;
-//        z-index: 4;
-//    }
-//
-//    .circles-animation1 {
-//        transform: rotate(110deg);
-//        background-image: url(../img/spiker_img4.png);
-//        background-position: 100% 0;
-//        background-size: 160px !important;
-//        @include transition-delay(0.75s);
-//    }
-//
-//    .circles-animation2 {
-//        transform: rotate(110deg);
-//        background-image: url(../img/spiker_img3.png);
-//        background-position: 100% 120px;
-//        z-index: 5;
-//        @include transition-delay(0.5s);
-//    }
-//
-//    .circles-animation3 {
-//        transform: rotate(110deg);
-//        background-image: url(../img/spiker_img2.png);
-//        background-position: 95% 210px;
-//        @include transition-delay(.25s);
-//    }
-//
-//    .circles-animation4 {
-//        transform: rotate(110deg);
-//        background-image: url(../img/spiker_img1.png);
-//        background-position: 90% 260px;
-//    }
-//}
-//
-//// End position
-//.circles-animation-wrap.circles-animation-wrap-hover.right-side  {
-//
-//    .circles-animation1,
-//    .circles-animation2,
-//    .circles-animation3,
-//    .circles-animation4 {
-//        position: absolute;
-//        top: 0;
-//        left: 0;
-//        bottom: 0;
-//        right: 0;
-//        background-repeat: no-repeat;
-//        -webkit-background-size: auto;
-//        background-size: auto;
-//        transform: rotate(0deg);
-//        transition: all 1s ease-out;
-//        opacity: 1;
-//        z-index: 4;
-//    }
-//
-//    .circles-animation1 {
-//        background-image: url(../img/spiker_img4.png);
-//        background-position: 100% 0;
-//    }
-//
-//    .circles-animation2 {
-//        background-image: url(../img/spiker_img3.png);
-//        background-position: 100% 160px;
-//        @include transition-delay(0.35s);
-//        z-index: 6;
-//    }
-//
-//    .circles-animation3 {
-//        background-image: url(../img/spiker_img2.png);
-//        background-position: 95% 250px;
-//        @include transition-delay(.7s);
-//    }
-//
-//    .circles-animation4 {
-//        background-image: url(../img/spiker_img1.png);
-//        background-position: 75% 310px;
-//        @include transition-delay(1.05s);
-//    }
-//}
-
 .circles-animation-wrap {
     position: relative;
 
@@ -1993,31 +1486,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //------------------------------
 @keyframes pulse {
     0% {
@@ -2050,9 +1518,6 @@ footer {
         box-shadow: 0 0 0 opacify($green, 0);
     }
 }
-
-
-
 
 
 
@@ -2253,10 +1718,6 @@ footer {
         font-weight: normal;
     }
 
-    //.register-section .reg-block-left.right-side .circle-sm3-wr {
-    //    display: none;
-    //}
-
     .register-section {
         text-align: center;
     }
@@ -2379,8 +1840,6 @@ footer {
         background-position: 41px 90px;
         background-size: 14px 14px;
     }
-
-
 
     .section-with-table .title-block {
         margin-left: 0;
